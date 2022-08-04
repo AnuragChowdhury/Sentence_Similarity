@@ -47,7 +47,7 @@ def calc_similarity(sen1,sen2):
   #print(f"\nSimilarity Score Of the words between each sentences = {sim_score}\n")
   #print(f"Mean Similarity Score between {sen1} and {sen2} = {statistics.mean(sim_score)}\n")
   #print(f"Percentage Similarity Score = {statistics.mean(sim_score):.2%}")
-  #return f"\nSimilarity Score Of the words between each sentences = {sim_score}\n Mean Similarity Score between {sen1} and {sen2} = {statistics.mean(sim_score)}\nPercentage Similarity Score = {statistics.mean(sim_score):.2%}"  
+    
   
   return sim_score, statistics.mean(sim_score)
 
