@@ -8,8 +8,8 @@
 
 import nltk
 from nltk.corpus import wordnet
-#nltk.download('wordnet')
-#nltk.download('all')
+nltk.download('wordnet')
+nltk.download('all')
 
 
 # In[54]:
